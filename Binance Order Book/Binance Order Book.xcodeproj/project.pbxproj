@@ -1,0 +1,672 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B04D8F3270054B100765F6F /* OrderBookViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B04D8F2270054B100765F6F /* OrderBookViewModelTests.swift */; };
+		0B04D92927005FEF00765F6F /* OrderBookViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B08B02A26FC68C0007EF825 /* OrderBookViewModel.swift */; };
+		0B04D92D2700600400765F6F /* OrderBookClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B58C93E26FAF47700CA03CE /* OrderBookClient.swift */; };
+		0B04D92E2700600700765F6F /* MarkerServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B672C0926FB05FD003E0F70 /* MarkerServices.swift */; };
+		0B04D9352700601500765F6F /* OrderBookEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B51391426FC4BBE005E28F7 /* OrderBookEvent.swift */; };
+		0B08B01B26FC64DB007EF825 /* RxCocoa.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B08B01926FC64DB007EF825 /* RxCocoa.xcframework */; };
+		0B08B01D26FC64DB007EF825 /* RxSwift.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B08B01A26FC64DB007EF825 /* RxSwift.xcframework */; };
+		0B08B02B26FC68C0007EF825 /* OrderBookViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B08B02A26FC68C0007EF825 /* OrderBookViewModel.swift */; };
+		0B08B03A26FC6A71007EF825 /* RxRelay.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B08B02F26FC6A2F007EF825 /* RxRelay.xcframework */; };
+		0B08B04E26FC8DE1007EF825 /* Starscream.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B08B04D26FC8DE1007EF825 /* Starscream.xcframework */; };
+		0B51391526FC4BBE005E28F7 /* OrderBookEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B51391426FC4BBE005E28F7 /* OrderBookEvent.swift */; };
+		0B58C90626FAF29500CA03CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B58C90526FAF29500CA03CE /* AppDelegate.swift */; };
+		0B58C90826FAF29500CA03CE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B58C90726FAF29500CA03CE /* SceneDelegate.swift */; };
+		0B58C90A26FAF29500CA03CE /* CoinTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B58C90926FAF29500CA03CE /* CoinTabViewController.swift */; };
+		0B58C90D26FAF29500CA03CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B58C90B26FAF29500CA03CE /* Main.storyboard */; };
+		0B58C90F26FAF2A500CA03CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B58C90E26FAF2A500CA03CE /* Assets.xcassets */; };
+		0B58C91226FAF2A500CA03CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B58C91026FAF2A500CA03CE /* LaunchScreen.storyboard */; };
+		0B58C92826FAF2A500CA03CE /* Binance_Order_BookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B58C92726FAF2A500CA03CE /* Binance_Order_BookUITests.swift */; };
+		0B58C93F26FAF47700CA03CE /* OrderBookClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B58C93E26FAF47700CA03CE /* OrderBookClient.swift */; };
+		0B672C0A26FB05FD003E0F70 /* MarkerServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B672C0926FB05FD003E0F70 /* MarkerServices.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0B58C91926FAF2A500CA03CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0B58C8FA26FAF29500CA03CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B58C90126FAF29500CA03CE;
+			remoteInfo = "Binance Order Book";
+		};
+		0B58C92426FAF2A500CA03CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0B58C8FA26FAF29500CA03CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B58C90126FAF29500CA03CE;
+			remoteInfo = "Binance Order Book";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B04D8F2270054B100765F6F /* OrderBookViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderBookViewModelTests.swift; sourceTree = "<group>"; };
+		0B08B01926FC64DB007EF825 /* RxCocoa.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = RxCocoa.xcframework; path = Carthage/Build/RxCocoa.xcframework; sourceTree = "<group>"; };
+		0B08B01A26FC64DB007EF825 /* RxSwift.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = RxSwift.xcframework; path = Carthage/Build/RxSwift.xcframework; sourceTree = "<group>"; };
+		0B08B02A26FC68C0007EF825 /* OrderBookViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderBookViewModel.swift; sourceTree = "<group>"; };
+		0B08B02F26FC6A2F007EF825 /* RxRelay.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = RxRelay.xcframework; path = Carthage/Build/RxRelay.xcframework; sourceTree = "<group>"; };
+		0B08B04D26FC8DE1007EF825 /* Starscream.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Starscream.xcframework; path = Carthage/Build/Starscream.xcframework; sourceTree = "<group>"; };
+		0B51391426FC4BBE005E28F7 /* OrderBookEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderBookEvent.swift; sourceTree = "<group>"; };
+		0B58C90226FAF29500CA03CE /* Binance Order Book.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Binance Order Book.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B58C90526FAF29500CA03CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0B58C90726FAF29500CA03CE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0B58C90926FAF29500CA03CE /* CoinTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinTabViewController.swift; sourceTree = "<group>"; };
+		0B58C90C26FAF29500CA03CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0B58C90E26FAF2A500CA03CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0B58C91126FAF2A500CA03CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0B58C91326FAF2A500CA03CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B58C91826FAF2A500CA03CE /* Binance Order BookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Binance Order BookTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B58C91E26FAF2A500CA03CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B58C92326FAF2A500CA03CE /* Binance Order BookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Binance Order BookUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B58C92726FAF2A500CA03CE /* Binance_Order_BookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Binance_Order_BookUITests.swift; sourceTree = "<group>"; };
+		0B58C92926FAF2A500CA03CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B58C93E26FAF47700CA03CE /* OrderBookClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderBookClient.swift; sourceTree = "<group>"; };
+		0B672C0926FB05FD003E0F70 /* MarkerServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkerServices.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0B58C8FF26FAF29500CA03CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B08B01D26FC64DB007EF825 /* RxSwift.xcframework in Frameworks */,
+				0B08B03A26FC6A71007EF825 /* RxRelay.xcframework in Frameworks */,
+				0B08B04E26FC8DE1007EF825 /* Starscream.xcframework in Frameworks */,
+				0B08B01B26FC64DB007EF825 /* RxCocoa.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B58C91526FAF2A500CA03CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B58C92026FAF2A500CA03CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B08B06126FDD826007EF825 /* OrderBook */ = {
+			isa = PBXGroup;
+			children = (
+				0B08B02A26FC68C0007EF825 /* OrderBookViewModel.swift */,
+				0B51391426FC4BBE005E28F7 /* OrderBookEvent.swift */,
+			);
+			path = OrderBook;
+			sourceTree = "<group>";
+		};
+		0B58C8F926FAF29500CA03CE = {
+			isa = PBXGroup;
+			children = (
+				0B58C90426FAF29500CA03CE /* Binance Order Book */,
+				0B58C91B26FAF2A500CA03CE /* Binance Order BookTests */,
+				0B58C92626FAF2A500CA03CE /* Binance Order BookUITests */,
+				0B58C90326FAF29500CA03CE /* Products */,
+				0B672BF826FB059B003E0F70 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0B58C90326FAF29500CA03CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0B58C90226FAF29500CA03CE /* Binance Order Book.app */,
+				0B58C91826FAF2A500CA03CE /* Binance Order BookTests.xctest */,
+				0B58C92326FAF2A500CA03CE /* Binance Order BookUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0B58C90426FAF29500CA03CE /* Binance Order Book */ = {
+			isa = PBXGroup;
+			children = (
+				0B58C90526FAF29500CA03CE /* AppDelegate.swift */,
+				0B58C90726FAF29500CA03CE /* SceneDelegate.swift */,
+				0B58C90926FAF29500CA03CE /* CoinTabViewController.swift */,
+				0B08B06126FDD826007EF825 /* OrderBook */,
+				0B58C90B26FAF29500CA03CE /* Main.storyboard */,
+				0B58C90E26FAF2A500CA03CE /* Assets.xcassets */,
+				0B58C91026FAF2A500CA03CE /* LaunchScreen.storyboard */,
+				0B58C91326FAF2A500CA03CE /* Info.plist */,
+				0B58C94626FAFAE600CA03CE /* Network */,
+			);
+			path = "Binance Order Book";
+			sourceTree = "<group>";
+		};
+		0B58C91B26FAF2A500CA03CE /* Binance Order BookTests */ = {
+			isa = PBXGroup;
+			children = (
+				0B58C91E26FAF2A500CA03CE /* Info.plist */,
+				0B04D8F2270054B100765F6F /* OrderBookViewModelTests.swift */,
+			);
+			path = "Binance Order BookTests";
+			sourceTree = "<group>";
+		};
+		0B58C92626FAF2A500CA03CE /* Binance Order BookUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0B58C92726FAF2A500CA03CE /* Binance_Order_BookUITests.swift */,
+				0B58C92926FAF2A500CA03CE /* Info.plist */,
+			);
+			path = "Binance Order BookUITests";
+			sourceTree = "<group>";
+		};
+		0B58C94626FAFAE600CA03CE /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				0B58C93E26FAF47700CA03CE /* OrderBookClient.swift */,
+				0B672C0926FB05FD003E0F70 /* MarkerServices.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		0B672BF826FB059B003E0F70 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0B08B04D26FC8DE1007EF825 /* Starscream.xcframework */,
+				0B08B02F26FC6A2F007EF825 /* RxRelay.xcframework */,
+				0B08B01926FC64DB007EF825 /* RxCocoa.xcframework */,
+				0B08B01A26FC64DB007EF825 /* RxSwift.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0B58C90126FAF29500CA03CE /* Binance Order Book */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B58C92C26FAF2A500CA03CE /* Build configuration list for PBXNativeTarget "Binance Order Book" */;
+			buildPhases = (
+				0B58C8FE26FAF29500CA03CE /* Sources */,
+				0B58C8FF26FAF29500CA03CE /* Frameworks */,
+				0B58C90026FAF29500CA03CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Binance Order Book";
+			packageProductDependencies = (
+			);
+			productName = "Binance Order Book";
+			productReference = 0B58C90226FAF29500CA03CE /* Binance Order Book.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0B58C91726FAF2A500CA03CE /* Binance Order BookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B58C92F26FAF2A500CA03CE /* Build configuration list for PBXNativeTarget "Binance Order BookTests" */;
+			buildPhases = (
+				0B58C91426FAF2A500CA03CE /* Sources */,
+				0B58C91526FAF2A500CA03CE /* Frameworks */,
+				0B58C91626FAF2A500CA03CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0B58C91A26FAF2A500CA03CE /* PBXTargetDependency */,
+			);
+			name = "Binance Order BookTests";
+			productName = "Binance Order BookTests";
+			productReference = 0B58C91826FAF2A500CA03CE /* Binance Order BookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0B58C92226FAF2A500CA03CE /* Binance Order BookUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B58C93226FAF2A500CA03CE /* Build configuration list for PBXNativeTarget "Binance Order BookUITests" */;
+			buildPhases = (
+				0B58C91F26FAF2A500CA03CE /* Sources */,
+				0B58C92026FAF2A500CA03CE /* Frameworks */,
+				0B58C92126FAF2A500CA03CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0B58C92526FAF2A500CA03CE /* PBXTargetDependency */,
+			);
+			name = "Binance Order BookUITests";
+			productName = "Binance Order BookUITests";
+			productReference = 0B58C92326FAF2A500CA03CE /* Binance Order BookUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0B58C8FA26FAF29500CA03CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					0B58C90126FAF29500CA03CE = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					0B58C91726FAF2A500CA03CE = {
+						CreatedOnToolsVersion = 12.4;
+						LastSwiftMigration = 1240;
+					};
+					0B58C92226FAF2A500CA03CE = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 0B58C8FD26FAF29500CA03CE /* Build configuration list for PBXProject "Binance Order Book" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0B58C8F926FAF29500CA03CE;
+			packageReferences = (
+			);
+			productRefGroup = 0B58C90326FAF29500CA03CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0B58C90126FAF29500CA03CE /* Binance Order Book */,
+				0B58C91726FAF2A500CA03CE /* Binance Order BookTests */,
+				0B58C92226FAF2A500CA03CE /* Binance Order BookUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0B58C90026FAF29500CA03CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B58C91226FAF2A500CA03CE /* LaunchScreen.storyboard in Resources */,
+				0B58C90F26FAF2A500CA03CE /* Assets.xcassets in Resources */,
+				0B58C90D26FAF29500CA03CE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B58C91626FAF2A500CA03CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B58C92126FAF2A500CA03CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0B58C8FE26FAF29500CA03CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B58C90A26FAF29500CA03CE /* CoinTabViewController.swift in Sources */,
+				0B58C93F26FAF47700CA03CE /* OrderBookClient.swift in Sources */,
+				0B672C0A26FB05FD003E0F70 /* MarkerServices.swift in Sources */,
+				0B58C90626FAF29500CA03CE /* AppDelegate.swift in Sources */,
+				0B51391526FC4BBE005E28F7 /* OrderBookEvent.swift in Sources */,
+				0B08B02B26FC68C0007EF825 /* OrderBookViewModel.swift in Sources */,
+				0B58C90826FAF29500CA03CE /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B58C91426FAF2A500CA03CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B04D92927005FEF00765F6F /* OrderBookViewModel.swift in Sources */,
+				0B04D92E2700600700765F6F /* MarkerServices.swift in Sources */,
+				0B04D92D2700600400765F6F /* OrderBookClient.swift in Sources */,
+				0B04D8F3270054B100765F6F /* OrderBookViewModelTests.swift in Sources */,
+				0B04D9352700601500765F6F /* OrderBookEvent.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B58C91F26FAF2A500CA03CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B58C92826FAF2A500CA03CE /* Binance_Order_BookUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0B58C91A26FAF2A500CA03CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0B58C90126FAF29500CA03CE /* Binance Order Book */;
+			targetProxy = 0B58C91926FAF2A500CA03CE /* PBXContainerItemProxy */;
+		};
+		0B58C92526FAF2A500CA03CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0B58C90126FAF29500CA03CE /* Binance Order Book */;
+			targetProxy = 0B58C92426FAF2A500CA03CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0B58C90B26FAF29500CA03CE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0B58C90C26FAF29500CA03CE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0B58C91026FAF2A500CA03CE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0B58C91126FAF2A500CA03CE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0B58C92A26FAF2A500CA03CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0B58C92B26FAF2A500CA03CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0B58C92D26FAF2A500CA03CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = NO;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 285AH7CWU6;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				INFOPLIST_FILE = "Binance Order Book/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.assignment.Binance-Order-Book";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_WORKSPACE = NO;
+			};
+			name = Debug;
+		};
+		0B58C92E26FAF2A500CA03CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = NO;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 285AH7CWU6;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				INFOPLIST_FILE = "Binance Order Book/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.assignment.Binance-Order-Book";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_WORKSPACE = NO;
+			};
+			name = Release;
+		};
+		0B58C93026FAF2A500CA03CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Binance Order BookTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.assignment.Binance-Order-BookTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0B58C93126FAF2A500CA03CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Binance Order BookTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.assignment.Binance-Order-BookTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0B58C93326FAF2A500CA03CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Binance Order BookUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.assignment.Binance-Order-BookUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0B58C93426FAF2A500CA03CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Binance Order BookUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.assignment.Binance-Order-BookUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0B58C8FD26FAF29500CA03CE /* Build configuration list for PBXProject "Binance Order Book" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B58C92A26FAF2A500CA03CE /* Debug */,
+				0B58C92B26FAF2A500CA03CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B58C92C26FAF2A500CA03CE /* Build configuration list for PBXNativeTarget "Binance Order Book" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B58C92D26FAF2A500CA03CE /* Debug */,
+				0B58C92E26FAF2A500CA03CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B58C92F26FAF2A500CA03CE /* Build configuration list for PBXNativeTarget "Binance Order BookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B58C93026FAF2A500CA03CE /* Debug */,
+				0B58C93126FAF2A500CA03CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B58C93226FAF2A500CA03CE /* Build configuration list for PBXNativeTarget "Binance Order BookUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B58C93326FAF2A500CA03CE /* Debug */,
+				0B58C93426FAF2A500CA03CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0B58C8FA26FAF29500CA03CE /* Project object */;
+}

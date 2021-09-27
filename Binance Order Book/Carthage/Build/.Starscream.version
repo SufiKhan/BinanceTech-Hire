@@ -1,0 +1,60 @@
+{
+  "Mac" : [
+    {
+      "swiftToolchainVersion" : "5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)",
+      "hash" : "f186873467cb39ae78ebb2df19aa8812ad9b71fcd73592448d51d2a4d90dd5b2",
+      "name" : "Starscream",
+      "container" : "Starscream.xcframework",
+      "identifier" : "macos-arm64_x86_64"
+    }
+  ],
+  "watchOS" : [
+    {
+      "swiftToolchainVersion" : "5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)",
+      "hash" : "ff77a7806259098c41b8d83b364ac67052435777ac626fadbcd42ad7a48cc4f6",
+      "name" : "Starscream",
+      "container" : "Starscream.xcframework",
+      "identifier" : "watchos-arm64_32_armv7k"
+    },
+    {
+      "swiftToolchainVersion" : "5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)",
+      "hash" : "5c862113b6c476e701bed1af064cd939e88685bcf5a230276965147c5892904e",
+      "name" : "Starscream",
+      "container" : "Starscream.xcframework",
+      "identifier" : "watchos-arm64_i386_x86_64-simulator"
+    }
+  ],
+  "tvOS" : [
+    {
+      "swiftToolchainVersion" : "5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)",
+      "hash" : "5e67551e12221094c76fbb500ff9b8634712c698deb3fdece9328cbcafb2ccf7",
+      "name" : "Starscream",
+      "container" : "Starscream.xcframework",
+      "identifier" : "tvos-arm64_x86_64-simulator"
+    },
+    {
+      "swiftToolchainVersion" : "5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)",
+      "hash" : "1c85fc4c39c37c4913bccc8f19025754e8d26ee7d4fd35aa98d4c8063543ea3e",
+      "name" : "Starscream",
+      "container" : "Starscream.xcframework",
+      "identifier" : "tvos-arm64"
+    }
+  ],
+  "commitish" : "4.0.4",
+  "iOS" : [
+    {
+      "swiftToolchainVersion" : "5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)",
+      "hash" : "8595b4bbf075da15c9e8f050fee82bfa0bef86a7a1738a151c1a22263e6b2fd9",
+      "name" : "Starscream",
+      "container" : "Starscream.xcframework",
+      "identifier" : "ios-arm64_armv7"
+    },
+    {
+      "swiftToolchainVersion" : "5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)",
+      "hash" : "e0faf4c4c422db3c66bdf3b3f94456220b8a3c161af4d5c9def0bd506e253dbe",
+      "name" : "Starscream",
+      "container" : "Starscream.xcframework",
+      "identifier" : "ios-arm64_i386_x86_64-simulator"
+    }
+  ]
+}
